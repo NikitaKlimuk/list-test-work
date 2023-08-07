@@ -1,0 +1,28 @@
+.listItem {
+  width: 500px;
+  background-color: #ddecec;
+  border-radius: 15px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  &__action {
+    button {
+      padding: 10px;
+      border-radius: 10px;
+      color: white;
+      background-color: black;
+      transition: all 0.3s ease-in-out;
+    }
+    button:hover {
+      scale: 1.05;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}

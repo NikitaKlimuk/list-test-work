@@ -1,0 +1,30 @@
+.mainPage {
+  &__title {
+    font-size: 34px;
+    font-weight: 600;
+    padding-bottom: 14px;
+  }
+  &__filter {
+    &-title {
+      font-size: 24px;
+      font-weight: 500;
+      padding-bottom: 12px;
+    }
+  }
+  &__list {
+    padding-bottom: 30px;
+    &-title {
+      font-size: 24px;
+      font-weight: 500;
+      padding-bottom: 12px;
+    }
+    &-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+  footer {
+    padding-bottom: 60px;
+  }
+}
